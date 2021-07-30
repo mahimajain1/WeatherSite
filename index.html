@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+    <title>Weather Site</title>
+</head>
+<body>
+    <div id="container">
+        <h1 class="title" title="my app">Weather Site</h1>
+        <main class="container-form">
+            <!-- Message -->
+            <h2 id="city-title" class="white-item"></h2>
+            <h2 id="country-code" class="white-item"></h2>
+            <p id="description" class="white-item"></p>
+            <!-- Weather image -->
+            <div class="img-temp">
+                <img src="" class="img-icon"  alt="">
+                <h2 id="temperature" class="white-item"></h2>
+            </div>
+            <h3 id="humidity" class="white-item"></h3>
+            <form id="form" action="" method="get">
+                <label for="city" class="label white-item">City:</label>
+                <input type="text" id="city" class="input" value="" placeholder="Enter City">
+                <label for="country" class="label  white-item">Country code:</label>
+                <input type="text" value="" class="input" placeholder="Enter Country Code" id="country">
+                <button type="button" class="btn-submit  white-item">Send</button>
+            </form>
+        </main>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,87 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+
+body {
+    /* background: url(https://raw.githubusercontent.com/ArobyR/Weather-App/d6b40d294fdb070e3407973e2168128de9e5d949/img/img2.jpg) no-repeat center top; */
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4GnjpS7Ct4bPk9_3d-Dv6lpuCLcOITe3lNQ&usqp=CAU) no-repeat center top;
+
+    background-size: cover;
+    background-position: center; 
+    height: 100vh;    
+}
+
+.title {
+    color: #fff;
+    text-align: center;
+    margin-top: 30px;
+    letter-spacing: 2px;
+    padding-bottom: 5%;
+    font-size: 45px;
+}
+
+#container {
+    height: 100vh;
+}
+
+.container-form {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 350px;
+    margin: auto;
+    background-color: #788594;
+    padding: 14px;
+    font-size: 19px;
+}
+
+.label {
+    font-weight: bold;
+}
+
+.input {
+    width: 100%;
+    font-size: 20px;
+    margin-bottom: 24px;
+    padding: 7px;
+}
+
+#country-code, #img-icon, #temperature {
+    width: 50%;
+}
+
+.img-temp {
+    display: flex;
+    align-items: center;
+}
+
+#form {
+    margin-top: 5%;
+}
+
+#description, #humidity {
+    width: 100%;
+}
+
+#description {
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+.btn-submit {
+    font-weight: bold;
+    font-size: 19px;
+    width: 50%;
+    padding: 10px;
+    border-radius: 24px;
+    border: none;
+    background-image: -webkit-linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+    background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+    cursor: pointer;
+}
+
+.white-item {
+    color: #fff;
+}
